@@ -28,6 +28,6 @@ Some frequently asked questions and answers to them are contained on this page. 
 
 This page is accessible only through the link located on the homepage. It contains a brief description of three different best-selling products. The information **does not** represent the actual characteristics of the products.
 <br>
-Please, note that the website **does not** represent any actual company. This fact is mentioned in the footer section of the homepage.
+<p>Please, note that the website **does not** represent any actual company. This fact is mentioned in the footer section of the homepage.</p>
 
 Link to the website -
