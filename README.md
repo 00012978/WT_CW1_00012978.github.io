@@ -30,4 +30,4 @@ This page is accessible only through the link located on the homepage. It contai
 <br>
 <p>Please, note that the website **does not** represent any actual company. This fact is mentioned in the footer section of the homepage.</p>
 
-Link to the website -
+Link to the website - https://00012978.github.io/WT_CW1_00012978.github.io/index.html
