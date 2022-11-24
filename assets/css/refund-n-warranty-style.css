@@ -1,0 +1,90 @@
+@import url("main.css");
+
+main {
+    background-color: #9791e5;
+}
+
+main .wrapper {
+    padding: 10rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+article h1 {
+    padding: 1rem 0;
+}
+
+.refund-policy,
+.warranty-policy {
+    flex: 0 1 500px;
+    display: flex;
+    background-color: #F2ECFF;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 30px -5px rgba(71, 69, 84, 0.5);
+    padding: 2rem;
+}
+
+.steps-to-refund {
+    display: flex;
+    flex-direction: column;
+}
+
+.step {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.step-number {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    text-align: center;
+    color: #F2ECFF;
+    background-color: #615FAD;
+}
+
+.step-description {
+    line-height: 1.6rem;
+}
+
+.step:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+@media (max-width:1024px) {
+    main .wrapper {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px) {
+    .step {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .step:nth-child(even) {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .refund-policy,
+    .warranty-policy {
+        padding: 1rem;
+    }
+}

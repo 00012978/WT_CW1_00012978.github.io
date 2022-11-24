@@ -1,0 +1,62 @@
+@import url("main.css");
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+main>.wrapper {
+    padding: 2rem;
+}
+
+.company-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story {
+    line-height: 1.6rem;
+    max-width: 80%;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.story-text {
+    text-align: center;
+}
+
+.story-text>p {
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.story-text>figure {
+    width: 100%;
+    padding: 1rem;
+}
+
+.story-text>figure>figcaption {
+    font-style: italic;
+}
+
+.story-text>figure>img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+    .story {
+        max-width: 100%;
+    }
+
+    .story-text>figure>img {
+        max-width: 100%;
+    }
+}
